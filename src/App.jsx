@@ -1,10 +1,24 @@
+import PaintCard from "./components/card";
+import infoCards from "./components/object";
+
 
 
 function App() {
   return (
     <div className="App">
-      <h1>my App</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi dolor animi ipsam. Quas blanditiis sunt excepturi recusandae? Qui, praesentium accusantium recusandae animi corrupti quia nobis eos unde expedita dolores.</p>
+   {infoCards.map((cards, i) =>  {
+    return <PaintCard 
+    key = {i}
+    type = {cards.type}
+    number = {cards.number}
+    expirationMonth = {cards.expirationMonth}
+    expirationYear = {cards.expirationYear}
+    bank = {cards.bank}
+    owner = {cards.owner}
+    cssClass = {cards.cssClass}
+    />
+   })}
+      
     </div>
   );
 }

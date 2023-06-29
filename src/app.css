@@ -1,0 +1,19 @@
+.App {
+    display: flex;
+    gap: 50px;
+
+}
+.App div {
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.goldCreditCard {
+background-color:#eac362;
+}
+.silverCreditCard {
+    background-color: silver;
+}
+.basicCreditCard {
+    background-color: rgb(2, 221, 241);
+}
