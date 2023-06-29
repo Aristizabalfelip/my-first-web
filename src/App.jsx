@@ -1,26 +1,16 @@
-import PaintCard from "./components/card";
-import infoCards from "./components/object";
+import Ejercicio1 from "./components/Ejercicio1";
+import Ejercicio2 from "./components/Ejercicio2";
 
 
 
 function App() {
   return (
-    <div className="App">
-   {infoCards.map((cards, i) =>  {
-    return <PaintCard 
-    key = {i}
-    type = {cards.type}
-    number = {cards.number}
-    expirationMonth = {cards.expirationMonth}
-    expirationYear = {cards.expirationYear}
-    bank = {cards.bank}
-    owner = {cards.owner}
-    cssClass = {cards.cssClass}
-    />
-   })}
-      
-    </div>
-  );
-}
+ <>
+  <Ejercicio1 />
+  <Ejercicio2 />
 
+ </>
+  );
+ 
+}
 export default App;

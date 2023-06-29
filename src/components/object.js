@@ -1,4 +1,4 @@
-const infoCards = [
+export const infoCards = [
     {
         type: 'visa',
         number: 1234431267566984,
@@ -7,7 +7,6 @@ const infoCards = [
         bank: 'BBVA',
         owner: 'Francis Sinaloa',
         cssClass: 'goldCreditCard'
-
     },
     {
         type: 'MasterCard',
@@ -17,7 +16,6 @@ const infoCards = [
         bank: 'N26',
         owner: 'Julio Sinatra',
         cssClass: 'silverCreditCard'
-
     },
     {
         type: 'visa',
@@ -27,7 +25,33 @@ const infoCards = [
         bank: 'BNP',
         owner: 'Cristopher Caceres',
         cssClass: 'basicCreditCard'
-
     }
 ]
-export default infoCards;
+
+export const infoRanking = [
+
+    {
+        nam: 'Paco González',
+        rating: 3,
+        gender: 'Male',
+        job: 'Frontend Engeenier',
+        city: 'Torrezno de la Vega',
+        state: 'Albacete'
+    },
+    {
+        nam: 'Elena Ramírez',
+        rating: 4,
+        gender: 'Female',
+        job: 'System Architec',
+        city: 'Trabuco del Camino',
+        state: 'Murcia'
+    },
+    {
+        nam: 'Benito Pérez',
+        rating: 1,
+        gender: 'male',
+        job: 'Data Analist',
+        city: 'Villaconejos de Arriba',
+        state: 'Palencia'
+    },
+]
