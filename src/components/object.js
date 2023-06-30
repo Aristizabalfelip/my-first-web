@@ -36,7 +36,7 @@ export const infoRanking = [
         gender: 'Male',
         job: 'Frontend Engeenier',
         city: 'Torrezno de la Vega',
-        state: 'Albacete'
+        state: '(Albacete)'
     },
     {
         nam: 'Elena Ramírez',
@@ -44,7 +44,7 @@ export const infoRanking = [
         gender: 'Female',
         job: 'System Architec',
         city: 'Trabuco del Camino',
-        state: 'Murcia'
+        state: '(Murcia)'
     },
     {
         nam: 'Benito Pérez',
@@ -52,6 +52,6 @@ export const infoRanking = [
         gender: 'male',
         job: 'Data Analist',
         city: 'Villaconejos de Arriba',
-        state: 'Palencia'
+        state: '(Palencia)'
     },
 ]

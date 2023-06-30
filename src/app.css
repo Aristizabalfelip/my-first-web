@@ -7,6 +7,7 @@
     padding: 20px;
     border-radius: 10px;
     color: #ffffff;
+
 }
 .goldCreditCard {
 background-color:#eac362;
@@ -16,4 +17,28 @@ background-color:#eac362;
 }
 .basicCreditCard {
     background-color: rgb(2, 221, 241);
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+}
+.linkdin {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.linkdin> div  {
+   background-color: rgb(0, 128, 255);
+   width: 350px;
+   padding: 20px;
+   border-radius: 8px;
+}
+.linkdin img {
+    height: 25px;
+    width: 25px;
+}
+.articleCity {
+    display: flex;
 }

@@ -1,17 +1,13 @@
+import blackStar from '../assets/iconStarBlack.png'
+import star from '../assets/iconStar.png'
 
-const PaintStars = ({ nam, rating, gender, job, city, state }) => {
-    for (let index = 0; index < rating; index++) {
-        console.log('Hola');
-
-    }
-
-    return <div>
-        <h1>{nam}</h1>
-        <article></article>
-        <p>{gender}</p>
-        <h3>{job}</h3>
-        <article><h3>{city}</h3><h4>{state}</h4> </article>
-    </div>
-
+const PaintStars = ({ rating }) => {
+    return <>
+        <img src={rating >= 1 ? blackStar : star} alt="" />
+        <img src={rating >= 2 ? blackStar : star} alt="" />
+        <img src={rating >= 3 ? blackStar : star} alt="" />
+        <img src={rating >= 4 ? blackStar : star} alt="" />
+        <img src={rating >= 5 ? blackStar : star} alt="" />
+    </>
 }
 export default PaintStars

@@ -1,12 +1,13 @@
 import React from 'react'
 import { infoRanking } from './object'
 import PaintStars from './PaintStars'
+import Linkdin from './Linkdin'
 
 const Ejercicio2 = () => {
   return (
-    <div>
+    <div className='linkdin'>
         {infoRanking.map((persons, i) => {
-            return <PaintStars 
+            return <Linkdin 
             key = {i}
             nam= {persons.nam} 
             rating= {persons.rating} 
