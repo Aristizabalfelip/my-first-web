@@ -75,3 +75,28 @@ background-color:#eac362;
 .primo {
     background-color: red;
 }
+.countries {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.countries> div {
+width: 100%;
+}
+.countries> div div {
+    border-radius: 8px;
+}
+.countries article {
+
+width: 100px;
+}
+.comparisonBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comparisonBar section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}

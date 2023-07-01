@@ -10,7 +10,6 @@ const ButtonsNumber = ({ number }) => {
         return  number % 2 == 0 ? 'green' : 'yellow';
       }
     }
-    console.log(number);
     return 'primo'
   }
   return (
