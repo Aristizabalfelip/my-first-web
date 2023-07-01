@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonsNumber from './ButtonsNumber'
 
 function Ejercicio4() {
-    const number = 30
+    const number = 31
     const arrayNumbers = []
     for (let i = 0; i <= number; i++) {
         arrayNumbers.push(i)

@@ -1,16 +1,23 @@
 import React from 'react'
 
-const ButtonsNumber = ({number}) => {
+const ButtonsNumber = ({ number }) => {
   const primo = (number) => {
-console.log(number);
+    if (number <= 1) {
+      return  number % 2 == 0 ? 'green' : 'yellow';
+    }
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+        return  number % 2 == 0 ? 'green' : 'yellow';
+      }
+    }
+    console.log(number);
+    return 'primo'
   }
   return (
     <div>
-        <button className={primo(number)}>{number}</button>
+      <button className={primo(number)}>{number}</button>
     </div>
   )
 }
-
 export default ButtonsNumber
 
-// number % 2 == 0 ? 'green' : 'yellow'
